@@ -1,12 +1,16 @@
 # CheckJapaneseMunicipalitiesInWikidata
 
-Wikidata にある日本の行政区画（都道府県、市町村、東京特別区、区）のデータと総務省によるデータを比較し、一致していることを確認するための python notebook です。
+Wikidata にある日本の行政区画（都道府県、市町村、東京特別区、区）のデータと総務省によるデータを比較し、一致していることを確認するための python スクリプト（jupyter notebook） です。
+
+This is a python script (jupyter notebook) to verify integrity and consistency of Japanese municipality entries in Wikidata.
+The list of municipalities shall be compared to the true list, retrieved from the Ministry of Internal Affairs and Communications.
 
 ## 履歴
 
 | 日付 | 変更内容 |
 | --- | --- |
 | 2023-10-01 | 新規作成。都道府県、市、区までチェック。 |
+| 2023-10-03 | すべての自治体を一括でチェック。 |
 
 ## 行政区画データについて
 
